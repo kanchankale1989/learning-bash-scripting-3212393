@@ -1,0 +1,10 @@
+#! /usr/bin/env bash
+
+game="spades"
+case $game in
+    hearts) echo "This is red heart";;
+    spades) echo "This is black spade";;
+    diamond) echo "This is a red diamond";;
+    club) echo "This is a black club";;
+    *) echo "No match!"
+esac

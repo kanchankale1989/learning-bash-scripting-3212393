@@ -1,0 +1,12 @@
+#! /usr/bin/env bash
+var1="var1"
+
+myfunction(){
+    var2="var2"
+    local var3="var3"
+    echo $var3
+}
+
+myfunction
+echo $var1
+echo $var2

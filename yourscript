@@ -1,0 +1,11 @@
+#! /usr/bin/env bash
+
+echo "check the positive and negative number with if"
+
+declare -i p=3
+if(($p < 0 ))
+then
+    echo "the number is negative"
+else
+    echo "the number is positive"
+fi

@@ -1,0 +1,10 @@
+#! /usr/bin/env bash
+echo "What is your name?"
+read name
+
+echo "Enter password"
+read -s pass
+
+read -p "what's your favorite animal? " animal
+
+echo name:$name, pass:$pass, animal:$animal
